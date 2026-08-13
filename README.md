@@ -1,28 +1,30 @@
-# ai-workflow-assistant
-ai-workflow-assistant
-# AI Workflow Assistant
+# Simple AI Agent
 
 ## Project Overview
 
-AI Workflow Assistant is a basic AI Agent developed as part of the AI-Augmented Workflow course.
+This project is a beginner-friendly AI Agent developed using Python. 
+The agent provides a simple menu-based interface for performing basic tasks.
 
-The project aims to demonstrate how Python and Large Language Models can be used to create a simple AI-powered assistant.
+## Features
 
-## Technology Stack
+- Greet the user
+- Display the current date
+- Perform basic calculations
+- Exit the program
+
+## Technologies Used
 
 - Python
-- OpenAI API
-- Ollama as an alternative
 - Git
 - GitHub
 - Visual Studio Code
 
 ## Project Structure
 
-ai-workflow-assistant/
+```text
+Simple-AI-Agent/
+│
+├── agent.py
 ├── README.md
-├── docs/
-│   └── ADR-001-tech-stack.md
-├── src/
-│   └── agent.py
-└── requirements.txt
+├── CONTRIBUTION_LOG.md
+└── ADR.md
